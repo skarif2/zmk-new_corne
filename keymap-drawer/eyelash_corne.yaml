@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - '&td0'
   - Z
   - X
@@ -42,11 +42,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - LGUI
   - NUMBER
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - RETURN
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   NUMBER:

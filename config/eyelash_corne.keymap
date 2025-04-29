@@ -68,10 +68,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp GRAVE  &kp N1      &kp N2    &kp N3         &kp N4           &kp N5                                         &mmv MOVE_UP                     &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
-&trans     &kp INSERT  &kp HOME  &kp PAGE_UP    &kp SCROLLLOCK   &trans                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans     &kp DEL     &kp END   &kp PAGE_DOWN  &kp PAUSE_BREAK  &kp PRINTSCREEN  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans    &trans    &trans  &trans     &trans  &trans
-                                 &trans         &trans           &trans                                                                          &trans    &trans    &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                                &mmv MOVE_UP                     &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &kp N0  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans    &trans    &trans  &trans     &trans  &trans
+                        &trans  &trans  &trans                                                                 &trans    &trans    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -80,10 +80,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans     &trans    &trans  &trans    &trans    &trans               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &trans    &trans
-&trans     &trans    &trans  &trans    &trans    &trans     &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &trans    &trans
-                             &trans    &trans    &trans                                                                &trans     &trans     &trans
+&trans  &trans  &kp GRAVE  &kp EXCL     &kp AT      &kp CARET                            &mmv MOVE_UP                     &kp ASTRK  &kp LPAR          &kp RPAR           &kp TILDE  &trans  &trans
+&trans  &trans  &trans     &kp HASH     &kp DOLLAR  &kp UNDER            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EQUAL  &kp LBRC          &kp RBRC           &trans     &trans  &trans
+&trans  &trans  &trans     &kp PERCENT  &kp AMPS    &kp MINUS  &trans                    &mmv MOVE_DOWN                   &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans  &trans
+                           &trans       &trans      &trans                                                                &trans     &trans            &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
